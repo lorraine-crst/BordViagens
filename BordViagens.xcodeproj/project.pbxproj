@@ -13,6 +13,8 @@
 		F24214A22A4322F5005063F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24214A02A4322F5005063F9 /* Main.storyboard */; };
 		F24214A42A4322F6005063F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24214A32A4322F6005063F9 /* Assets.xcassets */; };
 		F24214A72A4322F6005063F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24214A52A4322F6005063F9 /* LaunchScreen.storyboard */; };
+		F2E5EAF72A4873680058696C /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E5EAF62A4873680058696C /* HomeTableViewHeader.xib */; };
+		F2E5EAF92A4874F60058696C /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E5EAF82A4874F60058696C /* HomeTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F24214A32A4322F6005063F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F24214A62A4322F6005063F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F24214A82A4322F6005063F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E5EAF62A4873680058696C /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		F2E5EAF82A4874F60058696C /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +63,11 @@
 				F242149A2A4322F5005063F9 /* AppDelegate.swift */,
 				F242149C2A4322F5005063F9 /* SceneDelegate.swift */,
 				F242149E2A4322F5005063F9 /* ViewController.swift */,
+				F2E5EAF82A4874F60058696C /* HomeTableViewHeader.swift */,
 				F24214A02A4322F5005063F9 /* Main.storyboard */,
 				F24214A32A4322F6005063F9 /* Assets.xcassets */,
 				F24214A52A4322F6005063F9 /* LaunchScreen.storyboard */,
+				F2E5EAF62A4873680058696C /* HomeTableViewHeader.xib */,
 				F24214A82A4322F6005063F9 /* Info.plist */,
 			);
 			path = BordViagens;
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F24214A72A4322F6005063F9 /* LaunchScreen.storyboard in Resources */,
+				F2E5EAF72A4873680058696C /* HomeTableViewHeader.xib in Resources */,
 				F24214A42A4322F6005063F9 /* Assets.xcassets in Resources */,
 				F24214A22A4322F5005063F9 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F242149F2A4322F5005063F9 /* ViewController.swift in Sources */,
+				F2E5EAF92A4874F60058696C /* HomeTableViewHeader.swift in Sources */,
 				F242149B2A4322F5005063F9 /* AppDelegate.swift in Sources */,
 				F242149D2A4322F5005063F9 /* SceneDelegate.swift in Sources */,
 			);
