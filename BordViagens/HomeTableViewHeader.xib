@@ -14,9 +14,8 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VDi-T9-fGi">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VDi-T9-fGi">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Minhas Viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5m-qY-EQV">
                             <rect key="frame" x="8" y="67" width="185" height="35"/>
@@ -25,9 +24,8 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b3H-se-WjD">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b3H-se-WjD" userLabel="banner">
                             <rect key="frame" x="20" y="167" width="375" height="130"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ra4-xs-iWj">
                                     <rect key="frame" x="0.0" y="0.0" width="200" height="128"/>
@@ -40,13 +38,27 @@
                                 </imageView>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="130" id="ObR-ST-0mu"/>
+                            </constraints>
                         </view>
                     </subviews>
                     <color key="backgroundColor" red="0.1529411765" green="0.23137254900000001" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="b3H-se-WjD" secondAttribute="bottom" constant="-47" id="EXt-hc-VsV"/>
+                        <constraint firstAttribute="height" constant="250" id="pOZ-Ye-rf8"/>
+                    </constraints>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="VDi-T9-fGi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="77n-ib-xo3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="b3H-se-WjD" secondAttribute="trailing" constant="19" id="7kb-fI-8XK"/>
+                <constraint firstItem="VDi-T9-fGi" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="a4y-ls-JN6"/>
+                <constraint firstItem="b3H-se-WjD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="hA8-8W-LJc"/>
+                <constraint firstItem="VDi-T9-fGi" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="hpf-yL-0rk"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="HeaderView" destination="VDi-T9-fGi" id="0Ct-rX-kAX"/>
