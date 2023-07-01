@@ -16,14 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Mi7-sb-toD">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Mi7-sb-toD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Mi7-sb-toD" secondAttribute="trailing" id="Bzb-3k-5S6"/>
+                            <constraint firstAttribute="bottom" secondItem="Mi7-sb-toD" secondAttribute="bottom" id="JY9-c1-iE2"/>
+                            <constraint firstItem="Mi7-sb-toD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NMg-qW-bwt"/>
+                            <constraint firstItem="Mi7-sb-toD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dpp-vf-Z5T"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="viagensTableView" destination="Mi7-sb-toD" id="S5R-Ki-234"/>
